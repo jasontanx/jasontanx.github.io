@@ -641,11 +641,13 @@ Source URLs (from `content.csv`):
 
 | Filename (target) | Source URL |
 |---|---|
-| `Career_Timeline.png` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/841d1189-6ce5-4766-b742-e23f5d2ae73d/Career_Timeline.png` |
-| `Mode_of_learning.png` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78ee3663-c8b3-4a62-bd03-0299755ff9b4/Mode_of_learning.png` |
-| `Mode_of_work.png` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/806fbf37-a752-4f7f-bbb0-a1f4cd72983b/Mode_of_work.png` |
-| `skills1.png` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3042f286-6ea5-4046-84e8-b74fddcfe2af/skills1.png` |
-| `skills2.png` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/878acfe9-bcbf-4cab-977f-1d82da4c38a9/skills2.png` |
+| `Career_Timeline.webp` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/841d1189-6ce5-4766-b742-e23f5d2ae73d/Career_Timeline.png` |
+| `Mode_of_learning.webp` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78ee3663-c8b3-4a62-bd03-0299755ff9b4/Mode_of_learning.png` |
+| `Mode_of_work.webp` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/806fbf37-a752-4f7f-bbb0-a1f4cd72983b/Mode_of_work.png` |
+| `skills1.webp` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3042f286-6ea5-4046-84e8-b74fddcfe2af/skills1.png` |
+| `skills2.webp` | `https://s3-us-west-2.amazonaws.com/secure.notion-static.com/878acfe9-bcbf-4cab-977f-1d82da4c38a9/skills2.png` |
+
+**Note:** Source URLs are PNG, but the user's Notion export saved them as WebP. WebP is supported in all modern browsers and ~30% smaller — we keep them as-is. All markdown image references downstream use the `.webp` extension.
 
 - [ ] **Step 1: Make the images directory**
 
@@ -720,23 +722,23 @@ Same story at work. Most of 2021 was work-from-home. Hybrid arrangements followe
 
 ## Career & Education Timeline
 
-![Career Timeline](/images/Career_Timeline.png)
+![Career Timeline](/images/Career_Timeline.webp)
 
 Five years across three milestones in higher education and a handful of roles across multiple companies.
 
 ## Mode of Learning
 
-![Mode of Learning](/images/Mode_of_learning.png)
+![Mode of Learning](/images/Mode_of_learning.webp)
 
 ## Mode of Work
 
-![Mode of Work](/images/Mode_of_work.png)
+![Mode of Work](/images/Mode_of_work.webp)
 
 ## Skills Acquired in MSc Data Science
 
 ### Year 1 — First Semester (2021)
 
-![Year 1 Skills](/images/skills1.png)
+![Year 1 Skills](/images/skills1.webp)
 
 - **R Programming** — predictive modeling
 - **SAP Lumira** — data visualization (Business Intelligence module)
@@ -744,7 +746,7 @@ Five years across three milestones in higher education and a handful of roles ac
 
 ### Year 2 — Second & Final Semesters (2022)
 
-![Year 2 Skills](/images/skills2.png)
+![Year 2 Skills](/images/skills2.webp)
 
 - **Tableau** and **SAS Enterprise Miner** — analytics projects
 - **SPSS** — statistical methods (t-test, ANOVA, chi-square)
