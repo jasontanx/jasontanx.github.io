@@ -116,7 +116,7 @@ Expected: One commit on `main` containing the spec, plan, gitignore, README, and
 
 ```bash
 cd /Users/junshengtan/Desktop/personal-blog
-npm create astro@latest . -- --template minimal --no-install --no-git --typescript strict
+npm create astro@latest . -- --template minimal --no-install --no-git --typescript strict --yes
 ```
 
 Notes for the executor:
