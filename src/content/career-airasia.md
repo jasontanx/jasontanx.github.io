@@ -2,9 +2,11 @@
 
 **Since August 2022.** Started as Data Engineer I, promoted to Data Engineer II in August 2024.
 
+<span class="tag">Python</span> <span class="tag">SQL</span> <span class="tag">BigQuery</span> <span class="tag">Postgres</span> <span class="tag">Airflow</span> <span class="tag">GCP</span> <span class="tag">Tableau</span> <span class="tag">LLM APIs (OpenAI / Gemini)</span>
+
 I joined AirAsia as a Data Engineer and have spent the time building and scheduling ETL pipelines that move data between operational systems, vendor sources, and our data warehouse — and increasingly, owning end-to-end projects that put that data in front of the people who make daily operational decisions.
 
-### Selected projects
+### 🛠 Selected projects
 
 - **Cabin Crew Operational App.** Integrated data from Google Sheets and BigQuery into a centralised application serving **5000+ flight crew members** — putting key performance metrics directly in the hands of the people they describe. Built the multi-source ingestion pipelines (→ Postgres) and the Airflow DAGs that keep them current.<br><span class="tag">Python</span> <span class="tag">BigQuery</span> <span class="tag">Postgres</span> <span class="tag">Google Sheets</span> <span class="tag">Airflow</span>
 
@@ -22,16 +24,22 @@ I joined AirAsia as a Data Engineer and have spent the time building and schedul
 
 - **Navitaire Logging Pipeline.** ETL pipeline that extracts data from BigQuery and lands it in GCS for audit purposes.<br><span class="tag">Python</span> <span class="tag">BigQuery</span> <span class="tag">GCS</span> <span class="tag">Airflow</span>
 
-- **Disaster Recovery (AIMS).** Annual DR exercise for AIMS, a major operational system.<br><span class="tag">DR</span> <span class="tag">Operations</span>
+- **Disaster Recovery Exercise.** Annual DR participation for a major operational platform — validating recovery procedures across the data pipelines and dependent systems.<br><span class="tag">DR</span> <span class="tag">Operations</span>
 
-### Core platform work
+### ⚙️ Core platform work
 
 - **Google Sheets → BigQuery ingestion** with Python ETL on a schedule.
 - **Database → Warehouse pipelines** — Postgres, MS SQL, and other operational databases into the data warehouse.
 - **Stored Procedure → BigQuery** — execute SP on source, transfer result.
 - **SFTP ingestion + reverse exports** — pick up files, transform, load to BigQuery; reverse direction (BigQuery → SFTP CSV) for downstream consumers.
 - **Airflow scheduling and monitoring** for all of the above.
-- **Documentation** — every pipeline shipped is documented on the company Confluence.
 - **LLM experimentation** — exploring how ChatGPT and Gemini speed up ETL development (boilerplate, schema debugging, doc drafting).
+
+### 🤝 Other contributions
+
+- **Mentored new team joiners.** Helped them ramp on the codebase, internal tooling, and team conventions — pairing on early pipelines and reviewing first PRs so they could ship confidently from day one.
+- **Led 10+ knowledge-sharing sessions** across the department, covering pipeline patterns, tooling decisions, and lessons learned from completed projects — turning individual learning into shared team capability.
+- **Documented every shipped project** on Confluence as a default practice, not an afterthought — the goal being that anyone joining six months later can pick up the context without needing me in the room.
+- **Co-organised department townhalls** — helping shape the agenda, coordinate logistics, and curate content so each session genuinely served the team rather than ticking a calendar box.
 
 Outside of work I also build personal projects to go deeper on the tooling — see [Projects](/projects/).
