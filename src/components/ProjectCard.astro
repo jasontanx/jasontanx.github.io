@@ -1,0 +1,42 @@
+---
+interface Props {
+  title: string;
+  github: string;
+  tags: string[];
+  description: string;
+}
+
+const { title, github, tags, description } = Astro.props;
+---
+
+<article class="project">
+  <h3><a href={github}>{title}</a></h3>
+  <p>{description}</p>
+  <div class="tags">
+    {tags.map((t) => <span class="tag">{t}</span>)}
+  </div>
+</article>
+
+<style>
+  .project {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.15s ease;
+  }
+  .project:hover {
+    border-color: var(--color-accent);
+  }
+  .project h3 {
+    margin: 0 0 8px;
+  }
+  .project h3 a {
+    border-bottom: none;
+  }
+  .project p {
+    margin: 0 0 12px;
+    color: var(--color-text-muted);
+  }
+  .tags { display: flex; flex-wrap: wrap; }
+</style>

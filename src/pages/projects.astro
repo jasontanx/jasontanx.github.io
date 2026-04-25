@@ -1,8 +1,39 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+
+interface ProjectFrontmatter {
+  title: string;
+  github: string;
+  tags: string[];
+  order: number;
+}
+
+type ProjectModule = {
+  frontmatter: ProjectFrontmatter;
+  rawContent: () => string;
+};
+
+const projectModules = import.meta.glob<ProjectModule>("../content/projects/*.md", { eager: true });
+
+const projects = Object.values(projectModules)
+  .map((mod) => ({
+    ...mod.frontmatter,
+    description: mod.rawContent().replace(/^---[\s\S]*?---/, "").trim(),
+  }))
+  .sort((a, b) => a.order - b.order);
 ---
 
 <BaseLayout title="Projects — Jason Tan">
   <h1>Projects</h1>
-  <p class="subtitle">Coming soon.</p>
+  <p class="subtitle">Personal projects I've built outside of work to go deeper on the tooling.</p>
+
+  {projects.map((p) => (
+    <ProjectCard
+      title={p.title}
+      github={p.github}
+      tags={p.tags}
+      description={p.description}
+    />
+  ))}
 </BaseLayout>
