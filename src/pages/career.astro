@@ -1,8 +1,31 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Content as AirAsia } from "../content/career-airasia.md";
+import { Content as Huawei } from "../content/career-huawei.md";
 ---
 
 <BaseLayout title="Career — Jason Tan">
   <h1>Career</h1>
-  <p class="subtitle">Coming soon.</p>
+  <p class="subtitle">Roles and what I built in each.</p>
+
+  <article>
+    <AirAsia />
+  </article>
+
+  <article>
+    <Huawei />
+  </article>
 </BaseLayout>
+
+<style>
+  article {
+    border-top: 1px solid var(--color-border);
+    padding-top: 24px;
+    margin-top: 24px;
+  }
+  article:first-of-type {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
+</style>
