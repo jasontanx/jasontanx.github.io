@@ -1,0 +1,129 @@
+# My Journey in AirAsia (so far…)!
+
+It’s been 2.5 years and counting…
+
+**Explore more by clicking below, I have a lot to share!** ➡️ ➡️
+
+[My Journey in AirAsia (so far…)! ](https://www.notion.so/My-Journey-in-AirAsia-so-far-67b86a91a11041dcad724fae84da40f3?pvs=21)
+
+**What Are the Tasks I Have Carried Out?**
+
+🚀Applied ETL techniques with **Python** to extract data from **Google Sheets** and ingest into **Google  BigQuery**.
+
+🚀 Script an ETL code to **extract data from database** (Postgres, MS SQL etc.) and **ingest data** into data warehouse.
+
+🚀 Developed ETL code to **execute a Stored Procedure (SP)** and seamlessly **transfer data into BigQuery**.
+
+🚀Carried out **scheduling on ETL pipelines** with **Apache Airflow** by creating Directed Acyclic Graphs (DAGs) 
+
+🚀Create ETL script to **extract files** landing in Secure File Transfer Protocol (SFTP), carry out **data transformation** based on the requirement and **ingest data into BigQuery**.
+
+🚀Extract data **from Google BigQuery** and **load into** specific path in **SFTP** as a csv. file.
+
+🚀**Documented every task** I have done and published it via the company **Confluence page**.
+
+🚀Experimented with **applying LLM such as ChatGPT or Gemini** to assist in creating ETL pipelines.
+
+# My Data Engineering Projects
+
+Throughout the year, I have also been exploring many other data engineering tools and practising my skills via various personal data engineering projects. Below are all the personal projects I have worked on (some in progress):
+
+**End-to-End Data Engineer Project**
+
+https://github.com/jasontanx/data-engineer-project-1
+
+**Terraform Practical**
+
+https://github.com/jasontanx/terraform-practice
+
+**BigQuery to Postgres Data Ingestion**
+
+https://github.com/jasontanx/bigquery-to-postgres-etl
+
+**Gsheet to BigQuery Data Ingestion**
+
+https://github.com/jasontanx/gsheet-to-bq-ingestion
+
+# The Journey Begins - About Me
+
+## But first…what is my education background?
+
+I came from a business background with a **Bachelor of Commerce (Majoring in International Business)**. Subsequently, I pursue my **Master of Business Administration (MBA)** at INTI College Subang in collaboration with Coventry University, UK on a part-time basis while I was working as a Management Associate (Responsible for Digital Marketing tasks) for a start-up company from Singapore.
+
+## The Transition from Business to a Data field
+
+After the completion of my contract as a Management Trainee at Huawei Malaysia in the year of 2021, I transitioned into a data field. On the month of August 2021, I officially enrolled into the **MSc Data Science and Business Analytics program** as a full-time student in Asia Pacific University (APU).
+
+## How’s the Journey along the road?
+
+While it has been challenging to navigate the uncertainties brought on by the COVID-19 pandemic, I’ve managed to accomplish the goals and achievements I had set for myself. Along the way, I’ve also had to make significant changes to my lifestyle, as well as adapt to shifts in both education and career paths.
+
+### The Timeline (Career 💼 + Education 🧑‍🎓= Experience + Knowledge)
+
+![Career_Timeline.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/841d1189-6ce5-4766-b742-e23f5d2ae73d/Career_Timeline.png)
+
+The timeline above showed a brief overview of my journey in the pursuit of my higher education as well as my career in various companies over the past 5 years. 
+
+### Mode of Delivery - Learning (Physical? ✅ Fully Online? ✅ Hybrid? ✅)
+
+![Mode of learning.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78ee3663-c8b3-4a62-bd03-0299755ff9b4/Mode_of_learning.png)
+
+As shown in the image above, I have gone through multiple mode of learning throughout the past 5 years. During my time when I was pursuing my Diploma and Degree, all of the learning was done on campus. However, since the emergence of the Covid-19 pandemic, everything changed. Half-way through the time while I was pursuing my MBA, we have to switch our mode of study to fully online due to the Covid-19 pandemic social restrictions. As such, I have to adapt in utilising **video conferencing tools** like **Webex and Moodle**. Most of the lessons were carried out online as well for my MSc in Data Science and Business Analytics program. Here, we heavily utilised the **Microsoft Teams** for lecture classes and communication purposes. 
+
+### Mode of Delivery - Career (Physical? ✅ Fully Online? ✅ Hybrid? ✅)
+
+![Mode of work.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/806fbf37-a752-4f7f-bbb0-a1f4cd72983b/Mode_of_work.png)
+
+Over to my career! Similar with the majority of the people during the Covid-19 pandemic, I have to adapt into a work from home (WFH) routine for most of the time in the year 2021. The image shown above details my experience in terms of mode of work throughout my career.
+
+When things got a little better, a hybrid work arrangement was planned. All in all, I definitely have experienced various type of working arrangements (**Fully physical in the office**, **hybrid arrangement** with a mix of work from home and work from office, **fully WFH**). Although there are some challenges initially while adapting to the fully WFH routine, things got settled down quite quickly. Communication tools like zoom and other applications worked well to ensure that we are all connected and able to carry out our tasks.
+
+# My Journey - Mission to Complete the Course
+
+During my 1-year journey pursuing my MSc in Data Science, we were taught many different skills, data analytic tools and knowledge. In the following section, I will share what are the data analytic tools we were taught for each subject. 
+
+## Skills Learned / Acquired
+
+### Year 2021 - First Semester
+
+![skills1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3042f286-6ea5-4046-84e8-b74fddcfe2af/skills1.png)
+
+For the first semester, **R Programming**, **SAP Lumira** and **SAS Studio** were among the programming language and Business Intelligence (BI) tools applied on the various subjects. Essentially, we were required to build a predictive model specifically with R Programming. With regard to the Business Intelligence System (BIS) module, SAP Lumira was applied mainly for data visualisation purposes. As for Data Management, SAS Studio was applied and most of the tasks involved practicing with Data Manipulation Language (DML) operation.
+
+### Year 2022 - Second & Final Semester
+
+![skills2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/878acfe9-bcbf-4cab-977f-1d82da4c38a9/skills2.png)
+
+Coming into the 2nd year, more tools are involved. In the 2nd semester at the beginning of the year 2022, I had the opportunity to explore more on **Tableau** and **SAS enterprise miner** in my project. **SPSS Statistic software** was also utilised during the Multivariate Methods for Data Analysis module which mainly carries out tasks involving the t-test, ANOVA, chi-square test etc. Furthermore, **Cloudcraft** was applied to assist in the design of the cloud architecture. 
+
+In the final semester, **Python** was introduced to carry out NLP related tasks as well as the development of the deep learning models. Essentially, the **Google Collab** platform was well utilised for many of the projects. 
+
+# My Work
+
+# Knowledge Sharing - Everything about Data
+
+This section will be fully dedicated to sharing any knowledge or information related to data science!
+
+### **Article 3 - First Semester of the Data Science Program [An Overview]**
+
+[**Data Science Programme – My First Semester**](https://www.notion.so/Data-Science-Programme-My-First-Semester-59dd4f7ae5ba422aae25c7bde41d28cf?pvs=21)
+
+### **Article 2 - The 66 Days of Data challenge [21/2/2022 – 28/4/2022]**
+
+[The **66 Days of Data Challenge** ](https://www.notion.so/The-66-Days-of-Data-Challenge-ac9dc082a63544d69aab3a8d866c4d60?pvs=21)
+
+### Article 1 - Where to find the datasets for analysis?
+
+[**Finding a Dataset For Analysis**](https://www.notion.so/Finding-a-Dataset-For-Analysis-2d975e2232554edd910f12b84cd5984d?pvs=21)
+
+# Contact Me
+
+Thank you for your interest in my work. Feel free to reach out to me If you wish to connect with me, you can reach me on my email at jasontan9178@gmail.com, or through my social media handles.
+
+💼 [My LinkedIn](https://www.linkedin.com/in/junshengtan/)
+
+🐱 [My GitHub](https://github.com/jasontanx)
+
+✨ [My Blog](https://thedatasciencejourney21.wordpress.com/)
+
+🥇 [My Kaggle](https://www.kaggle.com/tanjunshengjason)
