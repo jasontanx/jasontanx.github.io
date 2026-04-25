@@ -287,6 +287,7 @@ git commit -m "feat: add global CSS theme (modern/bold)"
 ```astro
 ---
 const { pathname } = Astro.url;
+const normalisedPath = pathname.endsWith("/") ? pathname : pathname + "/";
 const links = [
   { href: "/", label: "Home" },
   { href: "/about/", label: "About" },
@@ -303,7 +304,7 @@ const links = [
       <li>
         <a
           href={l.href}
-          class:list={[{ active: pathname === l.href || pathname === l.href.replace(/\/$/, "") }]}
+          class:list={[{ active: normalisedPath === l.href }]}
         >{l.label}</a>
       </li>
     ))}
@@ -478,7 +479,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <style>
   .hero {
-    padding: 32px 0 24px;
     background: linear-gradient(135deg, var(--color-bg-alt) 0%, transparent 70%);
     border-radius: var(--radius);
     margin-bottom: 32px;

@@ -1,5 +1,6 @@
 ---
 const { pathname } = Astro.url;
+const normalisedPath = pathname.endsWith("/") ? pathname : pathname + "/";
 const links = [
   { href: "/", label: "Home" },
   { href: "/about/", label: "About" },
@@ -16,7 +17,7 @@ const links = [
       <li>
         <a
           href={l.href}
-          class:list={[{ active: pathname === l.href || pathname === l.href.replace(/\/$/, "") }]}
+          class:list={[{ active: normalisedPath === l.href }]}
         >{l.label}</a>
       </li>
     ))}
