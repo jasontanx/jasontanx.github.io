@@ -9,23 +9,65 @@ import { Content as Huawei } from "../content/career-huawei.md";
   <p class="subtitle">Roles and what I built in each.</p>
 
   <article>
-    <AirAsia />
+    <div class="company-header">
+      <img src="/images/logos/airasia.webp" alt="AirAsia Logo" class="company-logo" />
+      <h2>AirAsia — Data Engineer</h2>
+    </div>
+    <div class="markdown-content">
+      <AirAsia />
+    </div>
   </article>
 
   <article>
-    <Huawei />
+    <div class="company-header">
+      <img src="/images/logos/huawei.jpeg" alt="Huawei Logo" class="company-logo" />
+      <h2>Huawei — Management Trainee</h2>
+    </div>
+    <div class="markdown-content">
+      <Huawei />
+    </div>
   </article>
 </BaseLayout>
 
 <style>
   article {
     border-top: 1px solid var(--color-border);
-    padding-top: 24px;
-    margin-top: 24px;
+    padding-top: 32px;
+    margin-top: 32px;
   }
   article:first-of-type {
     border-top: none;
     padding-top: 0;
     margin-top: 0;
+  }
+  
+  .company-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .company-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .company-logo {
+    width: 48px;
+    height: 48px;
+    min-width: 48px; /* Prevents flexbox from squishing it */
+    min-height: 48px;
+    border-radius: 8px;
+    object-fit: contain; /* Ensures the image aspect ratio is maintained inside the box */
+    background: #ffffff;
+    padding: 4px;
+    border: 1px solid var(--color-border);
+    margin: 0;
+  }
+
+  /* Hide the h2 that comes directly from the Markdown file so it doesn't duplicate our new header */
+  .markdown-content :global(h2) {
+    display: none;
   }
 </style>
