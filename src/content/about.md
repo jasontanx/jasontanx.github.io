@@ -20,43 +20,43 @@ Same story at work. Most of 2021 was work-from-home. Hybrid arrangements followe
 
 <div class="timeline-item present">
 <span class="timeline-year">2026 · Present</span>
-<h4>Data Engineer II · AirAsia</h4>
+<h4><img src="/images/logos/airasia.webp" alt="AirAsia logo" class="timeline-logo"> Data Engineer II · AirAsia</h4>
 <p>Continuing to ship operational data projects — pipelines, automation, and LLM tooling that put data in front of the people who use it.</p>
 </div>
 
 <div class="timeline-item">
 <span class="timeline-year">August 2024</span>
-<h4>Promoted to Data Engineer II</h4>
+<h4><img src="/images/logos/airasia.webp" alt="AirAsia logo" class="timeline-logo"> Promoted to Data Engineer II</h4>
 <p>Recognition for work on cabin crew, training compliance, AOG recovery, and data democratisation projects.</p>
 </div>
 
 <div class="timeline-item">
 <span class="timeline-year">August 2022</span>
-<h4>Joined AirAsia as Data Engineer I</h4>
+<h4><img src="/images/logos/airasia.webp" alt="AirAsia logo" class="timeline-logo"> Joined AirAsia as Data Engineer I</h4>
 <p>The career switch into data lands its first role.</p>
 </div>
 
 <div class="timeline-item">
 <span class="timeline-year">2021 – 2022</span>
-<h4>MSc Data Science &amp; Business Analytics · Asia Pacific University (APU)</h4>
+<h4><img src="/images/logos/apu.jpeg" alt="Asia Pacific University logo" class="timeline-logo"> MSc Data Science &amp; Business Analytics · Asia Pacific University (APU)</h4>
 <p>Full-time, full reset into data — R, SAS, SPSS, Tableau, Python, NLP, deep learning.</p>
 </div>
 
 <div class="timeline-item">
 <span class="timeline-year">2021</span>
-<h4>Pivot point</h4>
+<h4><img src="/images/logos/huawei.jpeg" alt="Huawei logo" class="timeline-logo"> Pivot point</h4>
 <p>Management Trainee contract at Huawei Malaysia ends. Decision made to leave the business track and move into data.</p>
 </div>
 
 <div class="timeline-item">
 <span class="timeline-year">2020 – 2021</span>
-<h4>MBA · INTI Subang × Coventry University, UK</h4>
+<h4><img src="/images/logos/coventry.png" alt="Coventry University logo" class="timeline-logo"> MBA · INTI Subang × Coventry University, UK</h4>
 <p>Part-time, while working as a Management Associate (Digital Marketing) at a Singapore-based startup.</p>
 </div>
 
 <div class="timeline-item">
 <span class="timeline-year">2018 – 2019</span>
-<h4>Bachelor of Commerce · University of Wollongong</h4>
+<h4><img src="/images/logos/wollongong.png" alt="University of Wollongong logo" class="timeline-logo"> Bachelor of Commerce · University of Wollongong</h4>
 <p>International Business major. Early career as Associate Business Consultant.</p>
 </div>
 
