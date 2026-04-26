@@ -12,6 +12,16 @@
   --radius: 8px;
 }
 
+:root[data-theme="dark"] {
+  --color-bg: #0f172a;
+  --color-bg-alt: #1e293b;
+  --color-text: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-border: #334155;
+  --color-accent: #818cf8;
+  --color-accent-hover: #a5b4fc;
+}
+
 * { box-sizing: border-box; }
 
 html, body {
@@ -22,6 +32,7 @@ html, body {
   background: var(--color-bg);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 main {

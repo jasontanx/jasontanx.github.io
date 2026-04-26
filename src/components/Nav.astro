@@ -1,4 +1,6 @@
 ---
+import ThemeToggle from "./ThemeToggle.astro";
+
 const { pathname } = Astro.url;
 const normalisedPath = pathname.endsWith("/") ? pathname : pathname + "/";
 const links = [
@@ -12,16 +14,19 @@ const links = [
 
 <nav class="nav">
   <a href="/" class="brand">Jason Tan</a>
-  <ul>
-    {links.filter((l) => l.href !== "/").map((l) => (
-      <li>
-        <a
-          href={l.href}
-          class:list={[{ active: normalisedPath === l.href }]}
-        >{l.label}</a>
-      </li>
-    ))}
-  </ul>
+  <div class="nav-right">
+    <ul>
+      {links.filter((l) => l.href !== "/").map((l) => (
+        <li>
+          <a
+            href={l.href}
+            class:list={[{ active: normalisedPath === l.href }]}
+          >{l.label}</a>
+        </li>
+      ))}
+    </ul>
+    <ThemeToggle />
+  </div>
 </nav>
 
 <style>
@@ -39,6 +44,11 @@ const links = [
     font-size: 1.05rem;
     color: var(--color-text);
     border-bottom: none;
+  }
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
   }
   ul {
     display: flex;
@@ -58,6 +68,7 @@ const links = [
   }
   @media (max-width: 560px) {
     .nav { flex-direction: column; gap: 12px; align-items: flex-start; }
+    .nav-right { width: 100%; justify-content: space-between; }
     ul { flex-wrap: wrap; gap: 12px; }
   }
 </style>

@@ -69,14 +69,6 @@ Eight years, three higher-education milestones, and a deliberate pivot from busi
 <div class="cert-list">
 
 <div class="cert-item">
-<img src="/images/logos/googlecloud.png" alt="Google Cloud logo" class="cert-logo">
-<div class="cert-body">
-<h4>Google Cloud Professional Data Engineer</h4>
-<p>Google Cloud · Issued Feb 2025 · Valid through Feb 2027 · <a href="https://www.credly.com/badges/7335881f-3a6d-4fa8-a30a-737e80acb45b/public_url">Verify on Credly →</a></p>
-</div>
-</div>
-
-<div class="cert-item">
 <img src="/images/logos/deeplearningai.jpeg" alt="DeepLearning.AI logo" class="cert-logo">
 <div class="cert-body">
 <h4>Introduction to Data Engineering</h4>
@@ -85,18 +77,26 @@ Eight years, three higher-education milestones, and a deliberate pivot from busi
 </div>
 
 <div class="cert-item">
-<img src="/images/logos/itil.png" alt="ITIL logo" class="cert-logo">
+<img src="/images/logos/googlecloud.png" alt="Google Cloud logo" class="cert-logo">
 <div class="cert-body">
-<h4>ITIL 4 Foundation Certificate in IT Service Management</h4>
-<p>PeopleCert (ITIL®) · Issued Jun 2024</p>
+<h4>Application Development with LLMs on Google Cloud</h4>
+<p>Google Cloud · Issued Apr 2025</p>
 </div>
 </div>
 
 <div class="cert-item">
 <img src="/images/logos/googlecloud.png" alt="Google Cloud logo" class="cert-logo">
 <div class="cert-body">
-<h4>Application Development with LLMs on Google Cloud</h4>
-<p>Google Cloud · Issued Apr 2025</p>
+<h4>Google Cloud Professional Data Engineer</h4>
+<p>Google Cloud · Issued Feb 2025 · Valid through Feb 2027 · <a href="https://www.credly.com/badges/7335881f-3a6d-4fa8-a30a-737e80acb45b/public_url">Verify on Credly →</a></p>
+</div>
+</div>
+
+<div class="cert-item">
+<img src="/images/logos/itil.png" alt="ITIL logo" class="cert-logo">
+<div class="cert-body">
+<h4>ITIL 4 Foundation Certificate in IT Service Management</h4>
+<p>PeopleCert (ITIL®) · Issued Jun 2024</p>
 </div>
 </div>
 
