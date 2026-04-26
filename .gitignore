@@ -24,3 +24,7 @@ pnpm-debug.log*
 
 # brainstorming workspace (per superpowers convention)
 .superpowers/
+
+# local working notes / source PDFs (not for publishing)
+learning_certification/
+career_update_2026.txt

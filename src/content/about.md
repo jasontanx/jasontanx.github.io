@@ -64,21 +64,48 @@ Same story at work. Most of 2021 was work-from-home. Hybrid arrangements followe
 
 Eight years, three higher-education milestones, and a deliberate pivot from business into data.
 
-## Skills Acquired in MSc Data Science
+## Certifications & Continuous Learning
 
-### Year 1 — First Semester (2021)
+<div class="cert-list">
 
-![Year 1 Skills](/images/skills1.webp)
+<div class="cert-item">
+<img src="/images/logos/googlecloud.png" alt="Google Cloud logo" class="cert-logo">
+<div class="cert-body">
+<h4>Google Cloud Certified — Associate Cloud Engineer</h4>
+<p>Google Cloud · <a href="https://www.credly.com/badges/7335881f-3a6d-4fa8-a30a-737e80acb45b/public_url">Verify on Credly →</a></p>
+</div>
+</div>
 
-- **R Programming** — predictive modeling
-- **SAP Lumira** — data visualization (Business Intelligence module)
-- **SAS Studio** — Data Manipulation Language (DML) and data management
+<div class="cert-item">
+<img src="/images/logos/talentlabs.jpeg" alt="TalentLabs logo" class="cert-logo">
+<div class="cert-body">
+<h4>Certified Associate in Data Analytics</h4>
+<p>TalentLabs · <a href="https://www.talentlabs.org/certificate/zBQYdnqzR7qb9zGB-oro_A">Verify →</a></p>
+</div>
+</div>
 
-### Year 2 — Second & Final Semesters (2022)
+<div class="cert-item">
+<img src="/images/logos/itil.png" alt="ITIL logo" class="cert-logo">
+<div class="cert-body">
+<h4>ITIL 4 Foundation Certificate in IT Service Management</h4>
+<p>PeopleCert (ITIL®)</p>
+</div>
+</div>
 
-![Year 2 Skills](/images/skills2.webp)
+<div class="cert-item">
+<img src="/images/logos/googlecloud.png" alt="Google Cloud logo" class="cert-logo">
+<div class="cert-body">
+<h4>Application Development with LLMs on Google Cloud</h4>
+<p>Google Cloud</p>
+</div>
+</div>
 
-- **Tableau** and **SAS Enterprise Miner** — analytics projects
-- **SPSS** — statistical methods (t-test, ANOVA, chi-square)
-- **Cloudcraft** — cloud architecture diagrams
-- **Python** (Final semester) — NLP and deep learning, mostly via Google Colab
+<div class="cert-item">
+<img src="/images/logos/deeplearningai.jpeg" alt="DeepLearning.AI logo" class="cert-logo">
+<div class="cert-body">
+<h4>Introduction to Data Engineering</h4>
+<p>DeepLearning.AI · Coursera</p>
+</div>
+</div>
+
+</div>

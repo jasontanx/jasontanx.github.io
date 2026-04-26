@@ -170,3 +170,54 @@ code {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+
+/* Certification cards (used on /about) */
+.cert-list {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0 16px;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  transition: border-color 0.15s ease;
+}
+
+.cert-item:hover {
+  border-color: var(--color-accent);
+}
+
+.cert-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 4px;
+  flex-shrink: 0;
+  border: 1px solid var(--color-border);
+  margin: 0;
+}
+
+.cert-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.cert-body h4 {
+  margin: 0 0 2px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.cert-body p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
