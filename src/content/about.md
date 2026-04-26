@@ -64,14 +64,6 @@ Same story at work. Most of 2021 was work-from-home. Hybrid arrangements followe
 
 Eight years, three higher-education milestones, and a deliberate pivot from business into data.
 
-## Mode of Learning
-
-![Mode of Learning](/images/Mode_of_learning.webp)
-
-## Mode of Work
-
-![Mode of Work](/images/Mode_of_work.webp)
-
 ## Skills Acquired in MSc Data Science
 
 ### Year 1 — First Semester (2021)
