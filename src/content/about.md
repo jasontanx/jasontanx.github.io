@@ -71,32 +71,8 @@ Eight years, three higher-education milestones, and a deliberate pivot from busi
 <div class="cert-item">
 <img src="/images/logos/googlecloud.png" alt="Google Cloud logo" class="cert-logo">
 <div class="cert-body">
-<h4>Google Cloud Certified — Associate Cloud Engineer</h4>
-<p>Google Cloud · <a href="https://www.credly.com/badges/7335881f-3a6d-4fa8-a30a-737e80acb45b/public_url">Verify on Credly →</a></p>
-</div>
-</div>
-
-<div class="cert-item">
-<img src="/images/logos/talentlabs.jpeg" alt="TalentLabs logo" class="cert-logo">
-<div class="cert-body">
-<h4>Certified Associate in Data Analytics</h4>
-<p>TalentLabs · <a href="https://www.talentlabs.org/certificate/zBQYdnqzR7qb9zGB-oro_A">Verify →</a></p>
-</div>
-</div>
-
-<div class="cert-item">
-<img src="/images/logos/itil.png" alt="ITIL logo" class="cert-logo">
-<div class="cert-body">
-<h4>ITIL 4 Foundation Certificate in IT Service Management</h4>
-<p>PeopleCert (ITIL®)</p>
-</div>
-</div>
-
-<div class="cert-item">
-<img src="/images/logos/googlecloud.png" alt="Google Cloud logo" class="cert-logo">
-<div class="cert-body">
-<h4>Application Development with LLMs on Google Cloud</h4>
-<p>Google Cloud</p>
+<h4>Google Cloud Professional Data Engineer</h4>
+<p>Google Cloud · Issued Feb 2025 · Valid through Feb 2027 · <a href="https://www.credly.com/badges/7335881f-3a6d-4fa8-a30a-737e80acb45b/public_url">Verify on Credly →</a></p>
 </div>
 </div>
 
@@ -104,7 +80,31 @@ Eight years, three higher-education milestones, and a deliberate pivot from busi
 <img src="/images/logos/deeplearningai.jpeg" alt="DeepLearning.AI logo" class="cert-logo">
 <div class="cert-body">
 <h4>Introduction to Data Engineering</h4>
-<p>DeepLearning.AI · Coursera</p>
+<p>DeepLearning.AI · Coursera · Issued Apr 2026</p>
+</div>
+</div>
+
+<div class="cert-item">
+<img src="/images/logos/itil.png" alt="ITIL logo" class="cert-logo">
+<div class="cert-body">
+<h4>ITIL 4 Foundation Certificate in IT Service Management</h4>
+<p>PeopleCert (ITIL®) · Issued Jun 2024</p>
+</div>
+</div>
+
+<div class="cert-item">
+<img src="/images/logos/googlecloud.png" alt="Google Cloud logo" class="cert-logo">
+<div class="cert-body">
+<h4>Application Development with LLMs on Google Cloud</h4>
+<p>Google Cloud · Issued Apr 2025</p>
+</div>
+</div>
+
+<div class="cert-item">
+<img src="/images/logos/talentlabs.jpeg" alt="TalentLabs logo" class="cert-logo">
+<div class="cert-body">
+<h4>Certified Associate in Data Analytics</h4>
+<p>TalentLabs · Issued Aug 2023 · <a href="https://www.talentlabs.org/certificate/zBQYdnqzR7qb9zGB-oro_A">Verify →</a></p>
 </div>
 </div>
 
