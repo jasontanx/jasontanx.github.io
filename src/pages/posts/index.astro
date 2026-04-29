@@ -1,0 +1,111 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+interface PostFrontmatter {
+  title: string;
+  date: string;
+  summary: string;
+  tags?: string[];
+  draft?: boolean;
+}
+
+type PostModule = {
+  frontmatter: PostFrontmatter;
+  url?: string;
+};
+
+const postModules = import.meta.glob<PostModule>("./*.md", { eager: true });
+
+const posts = Object.values(postModules)
+  .filter((m) => !m.frontmatter.draft && m.url)
+  .map((m) => ({ ...m.frontmatter, url: m.url! }))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+---
+
+<BaseLayout
+  title="Posts — Jason Tan"
+  description="Writing on data engineering, ETL pipelines, and lessons from the work."
+>
+  <h1>Posts</h1>
+  <p class="subtitle">Writing on data engineering, ETL, and lessons from the work.</p>
+
+  {posts.length === 0 ? (
+    <p class="empty">No posts yet — stay tuned.</p>
+  ) : (
+    <ul class="post-list">
+      {posts.map((p) => (
+        <li>
+          <a href={p.url} class="post-card">
+            <div class="post-card-head">
+              <h3>{p.title}</h3>
+              <time datetime={p.date}>
+                {new Date(p.date).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}
+              </time>
+            </div>
+            <p class="post-card-summary">{p.summary}</p>
+            {p.tags && p.tags.length > 0 && (
+              <div class="post-card-tags">
+                {p.tags.map((t) => <span class="tag">{t}</span>)}
+              </div>
+            )}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</BaseLayout>
+
+<style>
+  .empty {
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+  .post-card {
+    display: block;
+    padding: 20px 22px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    color: var(--color-text);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .post-card:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    border-bottom-color: var(--color-accent);
+  }
+  .post-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+  .post-card-head h3 {
+    margin: 0;
+    color: var(--color-accent);
+    font-size: 1.15rem;
+  }
+  .post-card-head time {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    flex-shrink: 0;
+  }
+  .post-card-summary {
+    margin: 0 0 10px;
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+  }
+  .post-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+</style>
