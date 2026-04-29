@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout title="Jason Tan — Data Engineer" description="Data Engineer at AirAsia building ETL pipelines on GCP, BigQuery, and Airflow. Based in Kuala Lumpur, open to international relocation.">
+<BaseLayout title="Jason Tan — Data Engineer" description="Specialist Data Engineer at TNG Digital (ex-AirAsia, ex-Huawei) building ETL pipelines on GCP, BigQuery, and Airflow. Based in Kuala Lumpur, open to international relocation.">
   <section class="hero">
     <div class="hero-content">
       <div class="hero-header">
@@ -12,7 +12,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </span>
       </div>
       <p class="subtitle">
-        Data Engineer @ AirAsia · ex-Huawei. Based in <strong>Kuala Lumpur, Malaysia</strong>.<br>
+        Specialist, Data Engineer @ TNG Digital · ex-AirAsia · ex-Huawei. Based in <strong>Kuala Lumpur, Malaysia</strong>.<br>
         Business graduate turned data engineer — building ETL pipelines, documenting the journey.
       </p>
       <div class="hero-actions">
@@ -20,6 +20,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <a href="https://www.linkedin.com/in/junshengtan/" class="btn secondary" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://github.com/jasontanx" class="btn secondary" target="_blank" rel="noopener">GitHub</a>
       </div>
+      <p class="hero-email">
+        <a href="mailto:tanjunsheng97@gmail.com?subject=Hello%20Jason">tanjunsheng97@gmail.com</a>
+      </p>
     </div>
   </section>
 
@@ -60,7 +63,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </a>
     <a class="card" href="/career/">
       <h3>Career</h3>
-      <p>3.5+ years building ETL at AirAsia, plus what came before.</p>
+      <p>Now at TNG Digital. Previously 3.5 years at AirAsia.</p>
     </a>
     <a class="card" href="/projects/">
       <h3>Projects</h3>
@@ -114,6 +117,20 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     gap: 12px;
     margin-top: 24px;
     flex-wrap: wrap;
+  }
+  .hero-email {
+    margin: 12px 0 0;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
+  .hero-email a {
+    font-family: var(--font-mono);
+    color: var(--color-text-muted);
+    border-bottom: 1px dashed var(--color-border);
+  }
+  .hero-email a:hover {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
   }
   .btn {
     padding: 10px 20px;

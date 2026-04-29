@@ -1,6 +1,6 @@
 ## AirAsia — Data Engineer
 
-**Since August 2022.** Started as Data Engineer I, promoted to Data Engineer II in August 2024.
+**August 2022 – April 2026.** Joined as Data Engineer I, promoted to Data Engineer II in August 2024. 3.5 years building ETL pipelines, LLM tooling, and operational dashboards.
 
 <span class="tag">Python</span> <span class="tag">SQL</span> <span class="tag">BigQuery</span> <span class="tag">Postgres</span> <span class="tag">Airflow</span> <span class="tag">GCP</span> <span class="tag">Tableau</span> <span class="tag">LLM APIs (OpenAI / Gemini)</span>
 

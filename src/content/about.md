@@ -19,9 +19,15 @@ Same story at work. Most of 2021 was work-from-home. Hybrid arrangements followe
 <div class="timeline">
 
 <div class="timeline-item present">
-<span class="timeline-year">2026 · Present</span>
-<h4><img src="/images/logos/airasia.webp" alt="AirAsia logo" class="timeline-logo"> Data Engineer II · AirAsia</h4>
-<p>Continuing to ship operational data projects — pipelines, automation, and LLM tooling that put data in front of the people who use it.</p>
+<span class="timeline-year">May 2026 · Present</span>
+<h4><img src="/images/logos/tngd.png" alt="TNG Digital logo" class="timeline-logo"> Specialist, Data Engineer · TNG Digital</h4>
+<p>Joined via Nadi Tech Sdn Bhd, a wholly-owned subsidiary of TNG Digital focused on high-traffic B2B platform solutions and digital infrastructure.</p>
+</div>
+
+<div class="timeline-item">
+<span class="timeline-year">April 2026</span>
+<h4><img src="/images/logos/airasia.webp" alt="AirAsia logo" class="timeline-logo"> Wrapped at AirAsia</h4>
+<p>3.5 years building pipelines, LLM tooling, and operational dashboards. Time for the next step.</p>
 </div>
 
 <div class="timeline-item">

@@ -1,12 +1,23 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Content as TNGDigital } from "../content/career-tngd.md";
 import { Content as AirAsia } from "../content/career-airasia.md";
 import { Content as Huawei } from "../content/career-huawei.md";
 ---
 
-<BaseLayout title="Career — Jason Tan" description="3.5+ years at AirAsia building ETL pipelines, LLM tooling, and operational dashboards — plus what came before at Huawei.">
+<BaseLayout title="Career — Jason Tan" description="From Huawei to AirAsia (3.5+ years) to TNG Digital — building ETL pipelines, LLM tooling, and operational dashboards.">
   <h1>Career</h1>
   <p class="subtitle">Roles and what I built in each.</p>
+
+  <article>
+    <div class="company-header">
+      <img src="/images/logos/tngd.png" alt="TNG Digital Logo" class="company-logo" />
+      <h2>TNG Digital — Specialist, Data Engineer</h2>
+    </div>
+    <div class="markdown-content">
+      <TNGDigital />
+    </div>
+  </article>
 
   <article>
     <div class="company-header">
