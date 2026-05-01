@@ -8,6 +8,8 @@ I started in business — a Bachelor of Commerce (International Business) — an
 
 When my Management Trainee contract at Huawei Malaysia wrapped up in 2021, I made the jump to data. In August 2021 I enrolled in the MSc Data Science and Business Analytics program at Asia Pacific University (APU) full-time.
 
+During the MSc I picked up Ken Jee's [#66DaysOfData](https://www.kennethjee.com/66daysofdata) challenge — 30 minutes every day for 66 consecutive days (February–April 2022), covering data mining, machine learning, statistics, and SQL fundamentals. Small daily habit, outsized effect on how quickly the formal coursework clicked.
+
 ## The Pivot
 
 The COVID-19 pandemic reshaped both how I learned and how I worked. My Diploma and Degree happened on campus; halfway through my MBA, classes moved fully online — Webex and Moodle overnight. The MSc was largely remote too, mostly over Microsoft Teams.
